@@ -1,30 +1,4 @@
-@font-face {
-    font-family: 'Segoe UI Web (West European)';
-    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-light.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Segoe UI Web (West European)';
-    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semilight.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Segoe UI Web (West European)';
-    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Segoe UI Web (West European)';
-    src: url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff2') format('woff2'), url('https://static2.sharepointonline.com/files/fabric/assets/fonts/segoeui-westeuropean/segoeui-semibold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -40,7 +14,7 @@ html {
   
 body {
     margin: auto;
-    font-family: 'Segoe UI Web (West European)';
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
 }
 
@@ -58,18 +32,18 @@ h4 {
 }
   
 h1, h2, h3 {
-    font-family: 'Segoe UI Web (West European)';
+    font-family: 'Montserrat', sans-serif;
     color: rgba(29, 181, 89, 1);
     font-weight: 400;
 }
 
 p{
-    font-family: 'Segoe UI Web (West European)';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 a{
     text-decoration: none;
-    font-family: 'Segoe UI Web (West European)';
+    font-family: 'Montserrat', sans-serif;
     color: inherit;
 }
 a.button{
@@ -82,7 +56,7 @@ a.button{
     background-color: #1DB559;
     border-radius: 8px;
     border: 0px;
-    font-family: 'Segoe UI Web (West European)';
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     transition: 0.3s;
     border: 1.5px solid #1DB559;
